@@ -1,0 +1,13 @@
+# Ignore everything inside any folder whose name starts with "outputs"
+outputs*/**
+
+# …but keep CSV files (at any depth) inside those folders
+!outputs*/**/*.csv
+
+.env
+.venv
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
